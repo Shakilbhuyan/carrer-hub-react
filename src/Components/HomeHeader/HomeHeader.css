@@ -1,20 +1,18 @@
-.nav-conatiner{
+.container{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-color: #9873FF0D;
-    padding: 18px;
-    border-radius: 8px;
+    align-items: center;
     margin-left: 15px;
 }
 
-nav.nav-conatiner a{
-    text-decoration: none;
-    color: #9873FF;
-    margin-left: 12px;
+.header-info{
+    padding: 10px;
 }
 
-.header-btn{
+.purple{
+    color: #9873FF;
+}
+.btn-start{
     border: none;
     background-color: #9873FF;
     color: azure;
@@ -22,9 +20,18 @@ nav.nav-conatiner a{
     border-radius: 8px;
 }
 
+.header-img{
+    height: 450px;
+}
+
+
 @media screen and (max-width:576px){
-    .nav-conatiner{
+    .container{
         flex-direction: column;
-        gap: 10px;
+    }
+
+    .header-img{
+        height: 150px;
+        width: 150px;
     }
 }
