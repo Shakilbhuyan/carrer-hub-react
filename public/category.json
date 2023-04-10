@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name": "Information Technology",
+        "seats": 120,
+        "img":"../src/assets/Icons/chip 1.png"
+    },
+    {
+        "id":2,
+        "name": "Finance",
+        "seats": 100,
+        "img":"../src/assets/Icons/accounts 1.png"
+    },
+    {
+        "id":3,
+        "name": "Marketing",
+        "seats":50,
+        "img":"../src/assets/Icons/business 1.png"
+    },
+    { 
+        "id":4,
+        "name": "Social Media Specialist",
+        "seats":200,
+        "img":"../src/assets/Icons/social-media 1.png"
+    }
+]

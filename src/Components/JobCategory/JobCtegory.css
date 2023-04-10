@@ -1,0 +1,16 @@
+.category-info{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.categories-cart{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width:576px){
+    .categories-cart{
+        flex-direction: column;
+        gap: 8px;
+    }
+}
