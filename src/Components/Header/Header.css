@@ -1,0 +1,29 @@
+.nav-conatiner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E8E8E8;
+    padding: 18px;
+    border-radius: 8px;
+}
+
+nav.nav-conatiner a{
+    text-decoration: none;
+    color: #9873FF;
+    margin-left: 12px;
+}
+
+.header-btn{
+    border: none;
+    background-color: #9873FF;
+    color: azure;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:576px){
+    .nav-conatiner{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
