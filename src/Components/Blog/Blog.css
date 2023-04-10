@@ -1,0 +1,11 @@
+.blog-container{
+    margin: 18px;
+    padding: 10px;
+    background-color: #9873FF0D;
+}
+
+.blog-container p{
+    background-color:#9873FF0C ;
+    padding: 10px;
+    border-radius: 8px;
+}
