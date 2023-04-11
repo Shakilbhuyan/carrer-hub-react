@@ -1,0 +1,29 @@
+.feature-info {
+    text-align: center;
+}
+.featured-conatiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 20px;
+}
+.btn-feature{
+    border: none;
+    background-color: #9873FF;
+    color: azure;
+    padding: 18px;
+    border-radius: 8px;
+    margin-left: 50%;
+}
+.btn-hidden{
+    display: none;
+}
+
+@media screen and (max-width:576px){
+    .featured-conatiner{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin: 20px;
+    }
+}
