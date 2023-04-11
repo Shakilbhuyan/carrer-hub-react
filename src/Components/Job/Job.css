@@ -7,6 +7,12 @@
     width: 150px;
     height: 100px;
 }
+.places{
+    border:1px solid #9873FF;
+    width: 60px;
+    padding: 2px;
+    background-color: #9873FF0D;
+}
 .btn-view{
     border: none;
     background-color: #9873FF;

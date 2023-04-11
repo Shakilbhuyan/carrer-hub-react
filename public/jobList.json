@@ -68,7 +68,7 @@
          "img":"amazon.png",
         "jobTitle": "Product Manager",
         " companyName": "Amazon",
-        " remoteOrOnsite": "Onsite",
+        "remoteOrOnsite": "Onsite",
         "location": "Seattle, WA",
         " salary": "$140,000",
         "jobDescription": "Lead the development and launch of new products and features.",

@@ -10,13 +10,13 @@ const Statistics = () => {
         { assignment: "Assignment 5", mark: 60 },
         { assignment: "Assignment 6", mark: 29 },
         { assignment: "Assignment 7", mark: 58 },
-        { assignment: "Assignment 8", mark: 57 }
+        { assignment: "Assignment 8", mark: 56 }
     ]
 
     return (
         <div>
             <AreaChart
-                width={700}
+                width={1000}
                 height={400}
                 data={numbers}
             >
