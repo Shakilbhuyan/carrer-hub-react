@@ -1,0 +1,26 @@
+.jobDetails-title{
+    text-align: center;
+}
+
+.detail-total-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.detail-info span,.cart-info span{
+    font-size: larger;
+    font-weight: bold;
+}
+.cart-info{
+    background-color:#9873FF0D;
+    padding: 8px;
+}
+.btn-apply{
+    border: none;
+    background-color: #9873FF;
+    color: azure;
+    padding: 15px;
+    border-radius: 8px;
+}
