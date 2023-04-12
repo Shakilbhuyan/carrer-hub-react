@@ -1,0 +1,28 @@
+#applied-job-banner {
+    background-image: url('../../assets/Icons/Vector.png');
+}
+
+#applied-job-container {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.applied-job {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.applied-job-details {
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+    align-items: center;
+}
